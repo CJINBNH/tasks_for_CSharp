@@ -18,3 +18,20 @@ else
         count = count - 1;
     }
 }
+//для любого целого, через if
+if(count < N)
+{
+    while(count <= N)
+    {
+        Console.WriteLine(count);
+        count++;
+    }
+}
+else
+{
+    while(count >= N)
+    {
+        Console.WriteLine(N);
+        N++;
+    }
+}
