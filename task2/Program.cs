@@ -2,11 +2,11 @@
 int numberOne = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine ("Введите второе число: ");
 int numberTwo = Convert.ToInt32(Console.ReadLine());
-if (numberTwo > numberOne)
+if (numberOne == numberTwo * numberTwo)
 {
-    Console.WriteLine(numberTwo / numberOne);
+    Console.WriteLine("Yes!");
 }
 else
 {
-    Console.WriteLine(numberOne / numberTwo);
+    Console.WriteLine("No");
 }
