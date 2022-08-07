@@ -19,9 +19,9 @@ else
     }
 }
 //для любого целого, через if
-if(count < N)
+if(count < numberN)
 {
-    while(count <= N)
+    while(count <= numberN)
     {
         Console.WriteLine(count);
         count++;
@@ -29,9 +29,9 @@ if(count < N)
 }
 else
 {
-    while(count >= N)
+    while(count >= numberN)
     {
-        Console.WriteLine(N);
-        N++;
+        Console.WriteLine(numberN);
+        numberN++;
     }
 }
