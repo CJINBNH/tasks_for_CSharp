@@ -11,6 +11,6 @@ while (count <= N)
     }
     else
     {
-        count = count +1;
+        count = count + 1;
     }
 }
